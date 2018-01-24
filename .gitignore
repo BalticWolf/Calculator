@@ -1,0 +1,6 @@
+.gradle/**
+build/**
+.idea/**
+CI.iml
+CI.ipr
+CI.iws
