@@ -10,7 +10,7 @@ public abstract class Operation {
      * @param b second integer operand
      * @return a plus b
      */
-    public static int add(int a, int b) {
+    public static int add(final int a, final int b) {
         return a + b;
     }
 
@@ -19,7 +19,7 @@ public abstract class Operation {
      * @param b second integer operand
      * @return a minus b
      */
-    public static int subtract(int a, int b) {
+    public static int subtract(final int a, final int b) {
         return add(a, -b);
     }
 
@@ -28,7 +28,7 @@ public abstract class Operation {
      * @param b second float operand
      * @return a multiplied by b
      */
-    public static float multiply(float a, float b) {
+    public static float multiply(final float a, final float b) {
         return a * b;
     }
 
@@ -37,7 +37,7 @@ public abstract class Operation {
      * @param b second float operand
      * @return a divided by b
      */
-    public static float divide(float a, float b) {
+    public static float divide(final float a, final float b) {
         return multiply(a, 1 / b);
     }
 }
