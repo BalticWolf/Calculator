@@ -3,7 +3,14 @@ package com.imie.calculator;
 /**
  * This class defines the 4 usual operations.
  */
-public abstract class Operation {
+public final class Operation {
+
+    /**
+     * Constructor.
+     */
+    private Operation() {
+        // prevents calls from subclass
+    }
 
     /**
      * @param a first integer operand

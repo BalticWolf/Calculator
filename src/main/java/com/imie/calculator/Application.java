@@ -7,12 +7,12 @@ package com.imie.calculator;
 /**
  * Main application.
  */
-public class Application {
+public final class Application {
 
     /**
      * Constructor.
      */
-    protected Application(){
+    private Application(){
         // prevents calls from subclass
     }
 
