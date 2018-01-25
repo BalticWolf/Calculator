@@ -24,7 +24,9 @@
         <module name="JavadocVariable">
             <property name="ignoreNamePattern" value="log|serialVersionUID" /> <!-- These are obvious. -->
         </module>
-
+        <module name="UncommentedMain">
+            <property name="excludedClasses" value="\.Main$"/>
+        </module>
 
         <!-- Formatting -->
         <module name="Indentation">
@@ -32,7 +34,7 @@
             <property name="caseIndent" value="0" />
         </module>
         <module name="LineLength">
-            <property name="max" value="160" />
+            <property name="max" value="120" />
         </module>
         <module name="MethodParamPad" />
         <module name="NoWhitespaceAfter" />
