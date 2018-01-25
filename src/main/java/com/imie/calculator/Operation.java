@@ -45,6 +45,12 @@ public final class Operation {
      * @return a divided by b
      */
     public static float divide(final float a, final float b) {
-        return multiply(a, 1 / b);
+        float result;
+        if (b == 0) {
+            result = Integer.MIN_VALUE;
+        } else {
+            result = multiply(a, 1 / b);
+        }
+        return result;
     }
 }

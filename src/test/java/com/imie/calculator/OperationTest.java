@@ -39,5 +39,6 @@ public class OperationTest {
         assertEquals(-4.0, Operation.divide(8, -2), 0);
         assertEquals(4.0, Operation.divide(-8, -2), 0);
         assertEquals(0.5, Operation.divide(4, 8), 0);
+        assertEquals(Integer.MIN_VALUE, Operation.divide(5, 0), 0);
     }
 }
