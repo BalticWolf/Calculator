@@ -17,11 +17,6 @@ public class OperationTest {
     }
 
     @org.junit.Test
-    public void Operation() {
-        assertNotNull(this.operation);
-    }
-
-    @org.junit.Test
     public void add() {
         assertNotNull(this.operation);
         assertEquals(3, this.operation.add(1, 2));
