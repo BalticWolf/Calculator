@@ -1,5 +1,12 @@
+/**
+* @author Timothee Aupetit
+*/
+
 package com.imie.calculator;
 
+/**
+ * Main application.
+ */
 public class Application {
 
     /**
